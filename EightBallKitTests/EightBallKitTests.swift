@@ -1,15 +1,15 @@
 //
-//  EightBallTests.swift
-//  EightBallTests
+//  EightBallKitTests.swift
+//  EightBallKitTests
 //
 //  Created by Brennan Stehling on 12/28/16.
 //  Copyright © 2016 SmallSharpTools LLC. All rights reserved.
 //
 
 import XCTest
-@testable import EightBall
+@testable import EightBallKit
 
-class EightBallTests: XCTestCase {
+class EightBallKitTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,4 +21,13 @@ class EightBallTests: XCTestCase {
         super.tearDown()
     }
     
+    func testRandomClassicResults() {
+        let results = Results()
+        for _ in 1...10 {
+            let result = results.randomClassicResult()
+            print("Result: \(result)")
+            XCTAssertTrue(result.characters.count > 0)
+        }
+    }
+
 }

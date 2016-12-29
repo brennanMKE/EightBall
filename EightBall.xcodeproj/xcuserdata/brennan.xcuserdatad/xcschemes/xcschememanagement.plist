@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>EightBallKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>2679B7E61E14B0B8003078CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2679B7FA1E14B0D1003078CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2679B8021E14B0D1003078CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
